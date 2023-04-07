@@ -29,12 +29,15 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color: #1e0202;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #bd1111ab;
+  background-color: #590c0c;
+  color: #FF3030;
+  color: #f9f9f9;
 }
 button:focus,
 button:focus-visible {
