@@ -21,7 +21,7 @@ const Shop = () => {
         //step-1: get id of the added product
 
         for(const id in storedCart){
-            //step-2: get product form products state by using id
+            //step-2: get product from products state by using id
             const addedProduct = products.find(product => product.id === id)
             if(addedProduct){
                 //step-3: add quantity
@@ -78,3 +78,4 @@ const Shop = () => {
 };
 
 export default Shop;
+
