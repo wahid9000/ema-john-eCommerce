@@ -11,7 +11,7 @@ const Header = () => {
                 <Link to="/">Shop</Link>
                 <Link to="/order">Orders</Link>
                 <Link to="/inventory">Manage Inventory</Link>
-                <Link to="/login">Login</Link>
+                <button className='btn-register'><Link to="/register" style={{paddingRight: '10px', marginLeft: '10px'}}>Get Started</Link></button> 
             </div>
 
         </nav>
