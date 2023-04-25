@@ -1,0 +1,59 @@
+.form-container {
+    width: 500px;
+    height:auto;
+    margin: 20px auto;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lato';
+    color: #2A414F;
+    letter-spacing: 0.0025em;
+}
+
+.form-control {
+    padding: 0px 42px;
+}
+
+.form-control input {
+    width: 415px;
+    height: 55px;
+    border: 1px solid #95A0A7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    margin-top: 24px;
+    width: 415px;
+    height: 55px;
+    background: rgba(255, 163, 26, 0.52);
+    border-radius: 5px;
+}
+.new-account-btn{
+    text-align: center;
+}
+.register-btn{
+    text-decoration: none;
+    color: goldenrod;
+    margin-left: 5px;
+}
+.register-btn:hover{
+    color: rgb(46, 25, 101);
+}
+.google-btn{
+    background-color: white;
+    color: #2A414F;
+    width: 415px;
+    height: 55px;
+    margin-bottom: 20px;
+    border: 1px solid goldenrod;
+}
+.or{
+    text-align: center;
+    color: #95A0A7
+    ;
+}
