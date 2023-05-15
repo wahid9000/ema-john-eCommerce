@@ -27,3 +27,9 @@
 .proceed-link{
       text-decoration: none;
 }
+
+
+.pagination{
+    text-align: center;
+    margin-bottom: 50px;
+}
